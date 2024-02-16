@@ -47,17 +47,17 @@ const Navbar = () => {
         <p>SHOPPER</p>
       </div>
       <ul className='nav-menu'>
-        <li onClick={() => { setMenu("shop") }}>
-          <Link to='/'>Shop</Link>{menu === "shop" ? <hr /> : null}
+        <li onClick={() => { setMenu("Shop") }}>
+          <Link style={{textDecoration:"none"}} to='/'>Shop</Link>{menu === "shop" ? <hr /> : null}
         </li>
         <li onClick={()=>{setMenu("men")}}>
-          <Link to='/men'>Men</Link> {menu === "men" ? <hr /> : null}
+          <Link  style={{textDecoration:"none"}} to='/men'>Men</Link> {menu === "men" ? <hr /> : null}
         </li>
         <li onClick={()=>{setMenu("women")}}>
-          <Link to='/women'>Women</Link> {menu === "women" ? <hr /> : null}
+          <Link   style={{textDecoration:"none"}}to='/women'>Women</Link> {menu === "women" ? <hr /> : null}
         </li>
         <li onClick={()=>{setMenu("kids")}}>
-          <Link to='/kids'>Kids</Link> {menu === "kids" ? <hr /> : null}
+          <Link  style={{textDecoration:"none"}} to='/kids'>Kids</Link> {menu === "kids" ? <hr /> : null}
         </li>
       </ul>
       <div className='nav-login-cart'>
