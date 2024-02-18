@@ -1,25 +1,12 @@
-// import React from 'react'
-// import Hero from '../components/Hero/Hero'
-
-// const Shop = () => {
-//   return (
-//     <div>
-//         <Hero/>
-    
-      
-//     </div>
-//   )
-// }
-
-// export default Shop;
-
 import React from 'react';
-import Hero from './Hero/Hero'; // Corrected import path
+import Hero from './Hero/Hero';
+import Popular from './Popular/Popular';
 
 const Shop = () => {
   return (
     <div>
       <Hero />
+      <Popular/>
     </div>
   );
 }

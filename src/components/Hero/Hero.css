@@ -48,3 +48,7 @@
     font-weight: 500;
 
 }
+.hero-right img{
+    height: 90%;
+    margin-right: 60px;
+}
