@@ -1,0 +1,35 @@
+.New-Collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.New-Collection h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.New-Collection hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+.collection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; 
+ 
+  
+
+   
+
+}
+.collection img{
+    width: 80%;
+}
